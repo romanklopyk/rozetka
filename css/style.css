@@ -274,7 +274,7 @@ body {
 .home__catalog{
 	width: 300px;
 	min-width: 300px;
-	background-color: yellow;
+	background-color: white;
 	min-height: 100px;
 }
 
@@ -288,3 +288,35 @@ body {
 .d-flex{
 	display: flex;
 }
+.home__catalog-ul{
+	list-style-type: none;
+	color: #4179AB;
+}
+
+.home__catalog-a {
+	color: #4179AB;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+.home__catalog-icon svg{
+	fill: #ADB8C8;
+	width: 24px;
+	height: 24px;
+}
+.home__catalog-text{
+font-size: 14px;
+padding-left: 10px;
+
+}
+ul, li{
+	padding: 0;
+	margin: 0;
+}
+.home__catalog-ul{
+padding-top: 24px;
+padding-bottom: 24px;
+padding-left: 24px;
+
+}
+
