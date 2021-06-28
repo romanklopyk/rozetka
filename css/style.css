@@ -279,7 +279,7 @@ body {
 }
 
 .home__banner{
-	background-color: red;
+	/*background-color: red;*/
 	min-height: 100px;
 	width: calc(100% - 300px);
 	min-width: calc(100% - 300px);
@@ -318,5 +318,47 @@ ul, li{
 	padding-bottom: 24px;
 	padding-left: 24px;
 
+}
+.home__banner-sl{
+background-color: green;
+}
+.home__banner-cat > div {
+
+	background-color: white;
+}
+.home__banner-cat-name {
+	font-size: 20px;
+	margin-bottom: 16px;
+	padding: 16px;
+}
+
+.home__banner-sl img {
+	width: 100%;
+}
+.home__banner-cat-box {
+padding:10px;
+}
+
+.home__banner-cat-box > div {
+	border: thin solid gray;
+	padding: 10px;
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.home__banner-cat-box span.name {
+	display: inline-block;
+	color: gray;
+	text-align: center;
+	padding: 10px 5px;
+} 
+.home__banner-cat-box span.zina {
+	display: inline-block;
+	font-size: 36px;
+	color: red;
+	align-self:left ;
 }
 
