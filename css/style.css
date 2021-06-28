@@ -299,6 +299,13 @@ body {
 	display: flex;
 	align-items: center;
 }
+
+.home__catalog-a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+
 .home__catalog-icon svg{
 	fill: #ADB8C8;
 	width: 24px;
@@ -320,7 +327,7 @@ ul, li{
 
 }
 .home__banner-sl{
-background-color: green;
+	background-color: green;
 }
 .home__banner-cat > div {
 
@@ -335,30 +342,58 @@ background-color: green;
 .home__banner-sl img {
 	width: 100%;
 }
-.home__banner-cat-box {
-padding:10px;
+.home__banner-cat-bigbox {
+	padding:10px;
+	flex-wrap: wrap;
 }
 
-.home__banner-cat-box > div {
+.home__banner-cat-bigbox > div {
 	border: thin solid gray;
 	padding: 10px;
 	margin: 5px;
-	display: flex;
+	display:flex;	
 	flex-direction: column;
 	align-items: center;
+		width: 200px;
+	min-width: 200px;
 
 }
 
-.home__banner-cat-box span.name {
-	display: inline-block;
+.home__banner-cat-bigbox span.name {
+	display: block;
 	color: gray;
 	text-align: center;
 	padding: 10px 5px;
 } 
-.home__banner-cat-box span.zina {
-	display: inline-block;
+.home__banner-cat-bigbox span.zina {
+	display: block;
 	font-size: 36px;
 	color: red;
-	align-self:left ;
+	
 }
 
+.smallbox {
+
+
+}
+
+.smallbox__img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 170px;
+	position: relative;
+
+}
+
+.smallbox__img img {
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%,-50%);
+	max-height: 140px;
+	/*max-width: 95%;
+	/* vertical-align: middle;*/
+}
