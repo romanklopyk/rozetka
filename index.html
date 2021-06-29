@@ -5,6 +5,11 @@
 	<meta  name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Розетка тестова сторінка</title>
 	<!-- коментар html -->
+	
+
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
@@ -15,7 +20,7 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="container">
-				<div class="header__menu-toggle opened">
+				<div class="header__menu-toggle">
 					<div></div>
 					<div></div>
 					<div></div>
@@ -78,13 +83,48 @@
 						
 					</div>
 					<div class="home__banner">
+						<div class="home__banner-slider">
+							<div>fgf</div>
+							<div>fgf</div>
+							<div>gfg</div>
+						</div>
 
-					 </div>
+					</div>
+
 				</div>
+
 			</div>
 
 		</main>
+
+		<!--slide menu -->
+		<div class="slide-menu">
+
+
+		</div>
+		<!--slide menu -->
 	</div>
 
-</body>
-</html>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous">
+	</script>
+	
+
+	
+
+	<script type="text/javascript" src="slick/slick.min.js">
+	</script>
+
+
+<script type="text/javascript" src="js/app.js"> 
+	</script>
+	
+<script type="text/javascript">
+
+$(document).ready(function(){
+  $('.home__banner-slider').slick();
+});
+</script>
+
+
+	</body>
+	</html>
