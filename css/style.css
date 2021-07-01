@@ -307,9 +307,12 @@ body {
 	box-shadow: 0px 0px 12px black;
 	transform: translateX(0%);
 }
-
+.home__banner > div {
+    width:calc(100% - 300px);
+    margin: 0 auto;
+}
 .home__banner-slider{
-
+    
 }
    
 .home__banner-slider > div {
