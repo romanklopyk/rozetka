@@ -1,0 +1,79 @@
+.product-card  {
+	display: block;
+	list-style: none;
+	max-width: 240px;
+}
+
+.product-card .thumb{
+	position: relative;
+	margin-bottom: 10px;
+
+}
+.product-card .thumb a{
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.product-card .thumb a img{
+	max-width: 95%;
+	max-height: 95%;
+	
+}
+.product-card .thumb .add-to-fav{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	height: 40px;
+	width: 40px;
+	background: none;
+	border: none;
+	outline: nones;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.product-card .thumb .add-to-fav:hover{
+	background: #e7e7e7;
+	transition: 0.3s;
+}
+
+.product-card .thumb .add-to-fav svg{
+	width: 24px;
+	height: 24px;
+	fill: #ffa900;
+
+}
+.product-card .title {
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: block;
+	line-height: 1.2;
+}
+
+.product-card .title:hover {
+	color: red;
+}
+
+.product-card .old-price{
+	font-size: 14px;
+	line-height: 1;
+	text-decoration: line-through;
+	color: gray;
+	margin-bottom: 10px;
+}
+
+.product-card .price{
+	color: red;
+	font-size: 24px;
+}
+
+.product-card .avial{
+	color: #797878;
+	font-size: 12px;
+	font-weight: 300;
+
+}
