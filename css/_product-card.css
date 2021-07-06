@@ -3,7 +3,10 @@
 	list-style: none;
 	max-width: 240px;
 }
-
+.home__product-list ul{
+    display: flex;
+    border-bottom, border-right: thin solid black;
+}
 .product-card .thumb{
 	position: relative;
 	margin-bottom: 10px;
@@ -45,6 +48,30 @@
 	fill: #ffa900;
 
 }
+
+
+.product-card .thumb .add-to-fav svg.filled{
+    display: none;
+    fill: red;
+    
+    
+  
+}
+
+.product-card .thumb .add-to-fav.in-fav svg{
+    display: none;
+    
+    
+}
+.product-card .thumb .add-to-fav.in-fav svg.filled{
+    display: inline-block;
+    
+    
+}
+
+
+
+
 .product-card .title {
 	font-size: 14px;
 	color: #333;

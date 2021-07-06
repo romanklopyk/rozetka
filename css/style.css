@@ -312,3 +312,8 @@ body {
 .home__banner-slider{
  /*height: 300px;*/
 }
+
+.empty {
+    display: none!important;
+    
+}
